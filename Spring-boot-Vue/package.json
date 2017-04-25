@@ -1,0 +1,19 @@
+{
+  "name": "spring-boot-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^2.4.1"
+  },
+  "dependencies": {
+    "laravel-mix": "^0.11.3",
+    "path": "^0.12.7"
+  }
+}
