@@ -11,4 +11,6 @@ const { mix } = require('laravel-mix');
  |
  */
 
-mix.js('src/main/resources/assets/js/test.js', 'src/main/resources/static');
+mix.js('src/main/resources/assets/js/admin.js', 'src/main/resources/static/js')
+   .sass('src/main/resources/assets/sass/app.scss', 'src/main/resources/static/css')
+   .sass('src/main/resources/assets/sass/dropzone.scss', 'src/main/resources/static/css');

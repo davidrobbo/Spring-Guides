@@ -1,4 +1,6 @@
 hello\Application.class
-hello\User.class
+hello\Admin\AdminController.class
 hello\UserController.class
+hello\Admin\AdminWebController.class
 hello\AController.class
+hello\User.class

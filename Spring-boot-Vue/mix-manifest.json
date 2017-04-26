@@ -1,3 +1,5 @@
 {
-  "/src/main/resources/static/test.js": "/src/main/resources/static/test.js"
+  "/src/main/resources/static/js/admin.js": "/src/main/resources/static/js/admin.js",
+  "/src/main/resources/static/css/app.css": "/src/main/resources/static/css/app.css",
+  "/src/main/resources/static/css/dropzone.css": "/src/main/resources/static/css/dropzone.css"
 }

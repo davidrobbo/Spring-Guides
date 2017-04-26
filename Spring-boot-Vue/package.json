@@ -1,19 +1,34 @@
 {
-  "name": "spring-boot-vue",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    "dev": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch-poll": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --watch-poll --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "webpack": "^2.4.1"
+    "axios": "^0.15.3",
+    "bootstrap-sass": "^3.3.7",
+    "jquery": "^3.1.1",
+    "laravel-mix": "^0.8.1",
+    "lodash": "^4.17.4",
+    "vue": "^2.1.10"
   },
   "dependencies": {
-    "laravel-mix": "^0.11.3",
-    "path": "^0.12.7"
+    "chart.js": "^2.5.0",
+    "cropperjs": "^1.0.0-rc",
+    "cross-env": "^3.2.3",
+    "datatables.net": "^1.10.13",
+    "datatables.net-bs": "^1.10.13",
+    "dropzone": "^4.3.0",
+    "faker": "^4.1.0",
+    "hideseek": "^0.7.1",
+    "moment": "^2.17.1",
+    "vue-date-picker": "^1.0.2",
+    "vue-resource": "^1.2.1",
+    "vue-router": "^2.3.0",
+    "vuedraggable": "^2.10.0",
+    "vuex": "^2.2.1"
   }
 }
